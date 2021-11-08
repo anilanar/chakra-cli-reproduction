@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      // Enforce single @types/react, ignore them in sub node_modules
+      "react": ["node_modules/@types/react"]
+    }
+  }
+}
